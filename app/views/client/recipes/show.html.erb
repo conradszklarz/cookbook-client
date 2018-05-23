@@ -1,6 +1,8 @@
 <h2><%= @recipe["title"] %></h2>
 <h3>Prep Time: <%= @recipe["formatted"]["prep_time"] %></h3>
-<h3>Chef: <%= @recipe["chef"] %><h3>
+<h4>Chef: <%= @recipe["chef"] %><h4>
+
+
 <h4>Ingredients: </h4>
 <ul>
 <% @recipe["formatted"]["ingredients"].each do |ingredient| %>
